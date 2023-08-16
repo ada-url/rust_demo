@@ -1,3 +1,4 @@
+extern crate ada_url;
 use ada_url::Url;
 fn main() {
     let mut u = Url::parse("http://www.google:8080/love#drug", None).expect("bad url");
